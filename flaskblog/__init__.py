@@ -6,7 +6,7 @@ from flask_login import LoginManager
 
 app = Flask(__name__)
 # cookies
-app.config['SECRET_KEY'] = '264348888e686d26161ab2e89f60f3d2'
+app.config['SECRET_KEY'] = '264348888e686d26161ab2e89f60f3d'
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///site.db'
 
